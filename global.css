@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('http://fonts.googleapis.com/earlyaccess/notosanstc.css');
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol {
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat","Noto Sans TC";
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
